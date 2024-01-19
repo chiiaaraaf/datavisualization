@@ -1,3 +1,4 @@
+import streamlit as st
 import plotly.graph_objects as go
 
 # Define the parties and their corresponding percentages
@@ -42,5 +43,5 @@ fig.update_layout(
     bargap=0.05  # Significantly reduced gap between bars
 )
 
-# Show the plot
-fig.show()
+# Display the plot in Streamlit
+st.plotly_chart(fig)
