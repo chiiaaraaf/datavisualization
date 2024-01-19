@@ -45,3 +45,4 @@ fig.update_layout(
     bargap=0.05
 )
 
+st.plotly_chart(fig)
